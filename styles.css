@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'NanumSquare';
-    src: url('./fonts/NanumSquareOTF_acR.otf') format('opentype');
+    src: url('../폰트/NanumSquareOTF_acR.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
