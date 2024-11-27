@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인터뷰 페이지</title>
     <style>
+        /* 1. NanumSquare 폰트 정의 */
+        @font-face {
+            font-family: 'NanumSquare';
+            src: url('./fonts/NanumSquareOTF_acR.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* 2. 스타일 정의 */
         body {
-            font-family: NanumSquare;
+            font-family: 'NanumSquare', Arial, sans-serif; /* NanumSquare를 기본으로 설정 */
             margin: 0;
             padding: 0;
             line-height: 1.6;
@@ -43,38 +52,10 @@
 
         .container {
             max-width: 800px;
-            margin: 50px auto;
-            padding: 0 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            margin: 20px auto;
             padding: 20px;
-        }
-
-        .date {
-            font-size: 0.9em;
-            color: #666;
-            margin-bottom: 10px;
-        }
-
-        .title {
-            font-size: 1.8em;
-            margin-bottom: 20px;
-        }
-
-        .image {
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        .image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .content {
-            font-size: 1em;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
