@@ -55,3 +55,8 @@ h1, h2, h3, p {
     line-height: 1.5; /* h1, h2, h3, p 태그에도 동일하게 줄 간격 적용 */
     margin-bottom: 20px; /* 요소 간 간격 추가 */
 }
+
+
+p {
+  margin: 0;  /* 기본 margin 값을 제거 */
+}
