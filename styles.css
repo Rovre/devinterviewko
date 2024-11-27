@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('./fonts/NanumSquareOTF_acR.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 기본 body에 폰트 적용 */
+body {
+    font-family: 'NanumSquare', sans-serif; /* NanumSquare를 기본 글꼴로 설정 */
+    font-size: 16px; /* 기본 글꼴 크기 */
+    line-height: 1.5; /* 줄 간격 */
+    color: #333; /* 텍스트 색상 */
+}
