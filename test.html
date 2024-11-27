@@ -1,9 +1,9 @@
 
-아래는 GitHub을 통해 인터뷰를 볼 수 있고, 사용자가 직접 인터뷰의 폰트를 지정할 수 있는 웹 페이지의 기본 HTML 구조입니다. 이 페이지에는 여러 인터뷰를 이동할 수 있는 목차가 포함되어 있습니다.
+여기에 GitHub을 통해 인터뷰를 볼 수 있고, 사용자가 직접 인터뷰의 폰트를 지정할 수 있는 웹 페이지의 기본 HTML 구조를 이어서 작성해드리겠습니다.
 html
 html>
 ="ko">
-뷰 목록
+<meta charset="UTF-8">
 body {
 font-family: Arial, sans-serif;
 line-height: 1.6;
@@ -27,8 +27,9 @@ color: #0066cc;
 text-decoration: underline;
 }
 </style>
-인터뷰 목록
-인터뷰 1인터뷰 2인터뷰 3인터뷰 4인터뷰 5
+인터뷰 목록<label for="fontSelector">폰트 선택:
+<option value="Arial">Arial<option value="Verdana">Verdana
+인터뷰 3인터뷰 4인터뷰 5
 인터뷰 1
 인터뷰 1의 내용이 여기 들어갑니다.
 인터뷰 2
@@ -39,3 +40,7 @@ text-decoration: underline;
 인터뷰 4의 내용이 여기 들어갑니다.
 인터뷰 5
 인터뷰 5의 내용이 여기 들어갑니다.
+function changeFont(font) {
+document.body.style.fontFamily = font;
+}
+</script>
