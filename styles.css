@@ -15,9 +15,43 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; /* 배경 색상 (선택 사항) */
+    height: 100%; /* body가 전체 화면을 채우도록 설정 */
+    display: flex; /* flexbox를 사용하여 자식 요소 배치 */
+    flex-direction: column; /* 세로로 요소 배치 */
+    justify-content: space-between; /* 위 아래 공간을 균등하게 분배 */
+    align-items: center; /* 가로로 가운데 정렬 */
+}
+
+/* header 스타일 */
+header {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* 전체 너비를 사용 */
+    margin-top: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* 본문 영역 */
+main {
+    flex-grow: 1; /* 남은 공간을 본문이 채우도록 설정 */
+    width: 100%; /* 전체 너비 사용 */
+    text-align: center; /* 본문 중앙 정렬 */
+    padding: 20px;
+    box-sizing: border-box; /* 패딩이 포함된 크기 계산 */
+}
+
+/* 이미지 스타일 */
+img {
+    max-width: 100%; /* 화면 너비에 맞게 이미지 크기 자동 조정 */
+    height: auto;
+    margin: 20px 0; /* 이미지 위아래 여백 */
 }
 
 /* 다른 요소에 대해서도 줄 간격을 설정하고 싶다면 추가 */
 h1, h2, h3, p {
     line-height: 1.5; /* h1, h2, h3, p 태그에도 동일하게 줄 간격 적용 */
+    margin-bottom: 20px; /* 요소 간 간격 추가 */
 }
