@@ -9,7 +9,7 @@
 body {
     font-family: 'NanumSquare', sans-serif; /* NanumSquare를 기본 글꼴로 설정 */
     font-size: 18px; /* 기본 글꼴 크기 */
-    line-height: 1; /* 줄 간격 1.5로 설정 */
+    line-height: 1.5; /* 줄 간격 1.5로 설정 */
     letter-spacing: 1px; /* 글자 사이 간격 */
     color: #333; /* 텍스트 색상 */
     margin: 0;
@@ -52,6 +52,6 @@ img {
 
 /* 다른 요소에 대해서도 줄 간격을 설정하고 싶다면 추가 */
 h1, h2, h3, p {
-    line-height: 1; /* h1, h2, h3, p 태그에도 동일하게 줄 간격 적용 */
+    line-height: 1.5; /* h1, h2, h3, p 태그에도 동일하게 줄 간격 적용 */
     margin-bottom: 20px; /* 요소 간 간격 추가 */
 }
