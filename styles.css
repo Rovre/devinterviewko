@@ -56,9 +56,9 @@ h1, h2, h3, p {
     margin-bottom: 20px; /* 요소 간 간격 추가 */
 }
 
-p {
-  line-height: 1.5;
-}
+  p {
+    margin: 0; /* 문단 상하단 여백 제거 */
+  }
 
 img {
   display: block; /* 인라인 요소를 블록 요소로 변경 */
