@@ -64,12 +64,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-
-  .image-container {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
