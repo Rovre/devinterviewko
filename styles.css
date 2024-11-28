@@ -61,7 +61,9 @@ h1, h2, h3, p {
   }
 
 img {
-  display: block; /* 인라인 요소를 블록 요소로 변경 */
-  margin-top: 20px; /* 위쪽 여백 */
-  margin-bottom: 20px; /* 아래쪽 여백 */
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
