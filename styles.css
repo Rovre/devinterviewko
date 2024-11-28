@@ -59,3 +59,9 @@ h1, h2, h3, p {
 p {
   line-height: 1.5;
 }
+
+img {
+  display: block; /* 인라인 요소를 블록 요소로 변경 */
+  margin-top: 20px; /* 위쪽 여백 */
+  margin-bottom: 20px; /* 아래쪽 여백 */
+}
